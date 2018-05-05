@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>Bootstrap Tabs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-header">
+            <div class="navbar-brand" style="color:#FFF">Bootstrap Tabs</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="default-box">
+            <div class="list-group">
+                <a href="#" class="list-group-item">Lorem</a>
+                <a href="#" class="list-group-item">Ipsum</a>
+                <a href="#" class="list-group-item">Dolor</a>
+                <a href="#" class="list-group-item">Sit</a>
+                <a href="#" class="list-group-item">Amet</a>
+                <a href="#" class="list-group-item">Consectetur </a>
+            </div>
+        </div>
+
+        <div class="container" id="nav-container">
+            <div class="row">
+                <div class="col-width">
+                    <!-- Nav tabs -->
+                    <div class="card">
+                        <ul class="nav nav-tabs" role="tablist" id="myTab">
+                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">LOREM</a></li>
+                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">IPSUM</a></li>
+                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">DOLOR</a></li>
+                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">SIT</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="home">
+                                <ul class="list-inline inline-card nav nav-tabs nav-adjust">
+                                    <li>
+                                        <a href="#detail1" aria-controls="detail1" role="tab" data-toggle="tab">Details 1</a>
+                                        <p role="tabpanel" class="tab-pane active" id="detail1">Hello Details1</p>
+
+                                    </li>
+                                    <li>
+                                        <a href="#module1" aria-controls="detail1" role="tab" data-toggle="tab">Lorem Module</a>
+                                        <p role="tabpanel" class="tab-pane active" id="module1">Hello Lorem Module 1</p>
+                                    </li>
+                                    <li><a href="#">Ipsum</a></li>
+                                    <li><a href="#">Dolor</a></li>
+                                    <li><a href="#">Sit</a></li>
+                                    <li><a href="#">Amet</a></li>
+                                    <li><a href="#">Consectetur </a></li>
+                                </ul>
+                                <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                                containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="profile">
+                                <ul class="list-inline inline-card nav nav-tabs nav-adjust ">
+                                    <li><a href="#">Details 2</a></li>
+                                    <li><a href="#">Lorem Module</a></li>
+                                    <li><a href="#">Ipsum</a></li>
+                                    <li><a href="#">Dolor</a></li>
+                                    <li><a href="#">Sit</a></li>
+                                    <li><a href="#">Amet</a></li>
+                                    <li><a href="#">Consectetur </a></li>
+                                </ul>
+                                <br> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+                                College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="messages">
+                                <ul class="list-inline inline-card nav nav-tabs nav-adjust">
+                                    <li><a href="#">Details 3</a></li>
+                                    <li><a href="#">Lorem Module</a></li>
+                                    <li><a href="#">Ipsum</a></li>
+                                    <li><a href="#">Dolor</a></li>
+                                    <li><a href="#">Sit</a></li>
+                                    <li><a href="#">Amet</a></li>
+                                    <li><a href="#">Consectetur </a></li>
+                                </ul>
+                                <br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                                as opposed to using 'Content here, content here', making it look like readable English.
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="settings">
+                                <ul class="list-inline inline-card nav nav-tabs nav-adjust">
+                                    <li><a href="#">Details 4</a></li>
+                                    <li><a href="#">Lorem Module</a></li>
+                                    <li><a href="#">Ipsum</a></li>
+                                    <li><a href="#">Dolor</a></li>
+                                    <li><a href="#">Sit</a></li>
+                                    <li><a href="#">Amet</a></li>
+                                    <li><a href="#">Consectetur </a></li>
+                                </ul>
+                                <br>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+                                to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
